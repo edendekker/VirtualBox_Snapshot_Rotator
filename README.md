@@ -2,6 +2,7 @@
 
 A python script for rotating on premise Oracle Virtual Box incremental snapshots.
 
+<img src="https://github.com/edendekker/VirtualBox_Snapshot_Rotator/blob/master/snapshot_rotator.jpeg" />
 
 ## Limitations
 - VM pauses the live system during snapshots
