@@ -17,6 +17,16 @@ Great for small coding projects on a development environment!
 
 ## Installation
 ### Unix
+Download to your machine.
+```
+apt install wget
+wget "https://github.com/edendekker/VirtualBox_Snapshot_Rotator/archive/master.zip"
+```
+If you have git on your development machine.
+```
+git clone https://github.com/edendekker/VirtualBox_Snapshot_Rotator.git
+```
+
 Check VirtualBox user of the vm installation. Make sure your script can execute it.
 ```
 ls -lrtah ./virtualbox/TomDevCodingMachine
@@ -25,7 +35,7 @@ sudo chmod 100 /home/vboxuser/snapshot_vm.sh
 sudo chmod 100 /home/vboxuser/snapshot_vm.py
 sudo chown vboxuser:vboxuser snapshot_vm.*
 ```
-Open crontab
+Open crontab.
 ```
 sudo vi /etc/crontab
 ```
