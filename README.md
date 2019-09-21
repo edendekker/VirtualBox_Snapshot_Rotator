@@ -33,7 +33,7 @@ ls -lrtah ./virtualbox/TomDevCodingMachine
 drwx------  8 vboxuser    vboxuser    4.0K Sep 17 21:30 TomDevCodingMachine
 sudo chmod 100 /home/vboxuser/snapshot_vm.sh
 sudo chmod 100 /home/vboxuser/snapshot_vm.py
-sudo chown vboxuser:vboxuser snapshot_vm.*
+sudo chown vboxuser:vboxuser /home/vboxuser/snapshot_vm.*
 ```
 Open crontab.
 ```
