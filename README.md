@@ -25,8 +25,8 @@ sudo chmod 100 /home/vboxuser/snapshot_vm.py
 sudo chown vboxuser:vboxuser snapshot_vm.*
 ```
 Open crontab
-`sudo vi /etc/crontab`
+```sudo vi /etc/crontab```
 Enter schedule. Example below is a snapshot every hour.
-`* */1   * * *   vboxuser   /home/vboxuser/snapshot_vm.sh TomDevCodingMachine`
+```* */1   * * *   vboxuser   /home/vboxuser/snapshot_vm.sh TomDevCodingMachine```
 ### Windows
 Sorry.
