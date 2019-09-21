@@ -1,6 +1,6 @@
 # VirtualBox Snapshot Rotator
 
-A python script for rotating on premise Oracle Virtual Box Snapshots.
+A python script for rotating on premise Oracle Virtual Box incremental snapshots.
 
 
 ## Limitations
